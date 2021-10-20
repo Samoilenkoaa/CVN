@@ -15,3 +15,17 @@ CVN поможет вам получить основную информацию
 * Свежие новости по всему миру о COVID-19.
 
 # Tech Stack:
+* MVVM
+* Room
+* Retrofit
+* JSON data parsing
+* Hilt
+* Coroutines
+* Glide
+* RecyclerView
+* Android Jetpack Navigation
+* ViewPager
+* Spiner
+* GraphView
+* SharedPreferences
+* ItemTouchHelper
