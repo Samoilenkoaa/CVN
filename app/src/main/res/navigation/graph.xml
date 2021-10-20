@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/graph"
+    app:startDestination="@id/homeFragment2">
+
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.bignerdranch.android.cvn.ui.main.view.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment2_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.bignerdranch.android.cvn.ui.main.view.DetailsFragment"
+        android:label="DetailsFragment" >
+        <argument
+            android:name="country"
+            app:argType="com.bignerdranch.android.cvn.data.CountryCovidInfo" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsFragment2"
+        android:name="com.bignerdranch.android.cvn.ui.main.view.NewsFragment"
+        android:label="NewsFragment" />
+    <fragment
+        android:id="@+id/countriesFragment"
+        android:name="com.bignerdranch.android.cvn.ui.main.view.CountriesFragment"
+        android:label="CountriesFragment" >
+        <action
+            android:id="@+id/action_countriesFragment_to_myCountryFragment"
+            app:destination="@id/myCountryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myCountryFragment"
+        android:name="com.bignerdranch.android.cvn.ui.main.view.MyCountryFragment"
+        android:label="MyCountryFragment" />
+    <fragment
+        android:id="@+id/symptomsFragment2"
+        android:name="com.bignerdranch.android.cvn.ui.main.view.SymptomsFragment"
+        android:label="SymptomsFragment" >
+        <action
+            android:id="@+id/action_symptomsFragment2_to_helpFragment2"
+            app:destination="@id/helpFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/helpFragment2"
+        android:name="com.bignerdranch.android.cvn.ui.main.view.HelpFragment"
+        android:label="HelpFragment" />
+    <fragment
+        android:id="@+id/favoriteFragment2"
+        android:name="com.bignerdranch.android.cvn.ui.main.view.FavoriteFragment"
+        android:label="FavoriteFragment" >
+        <action
+            android:id="@+id/action_favoriteFragment2_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+</navigation>

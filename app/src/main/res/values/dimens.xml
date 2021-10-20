@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardPadding16">16dp</dimen>
+    <dimen name="cardElevation8">8dp</dimen>
+    <dimen name="CornerRadius12">12dp</dimen>
+    <dimen name="marginTop16">16dp</dimen>
+    <dimen name="textSize16">16sp</dimen>
+    <dimen name="marginTop24">24dp</dimen>
+    <dimen name="layout_margin8">8dp</dimen>
+    <dimen name="cornerRadius20">20dp</dimen>
+    <dimen name="cardElevation12">12dp</dimen>
+    <dimen name="paddingTop8">8dp</dimen>
+    <dimen name="paddingBottom8">8dp</dimen>
+    <dimen name="paddingStart8">8dp</dimen>
+    <dimen name="paddingEnd8">8dp</dimen>
+    <dimen name="marginTop8">8dp</dimen>
+    <dimen name="marginStart16">16dp</dimen>
+    <dimen name="padding12">12dp</dimen>
+    <dimen name="cornerRadius8">8dp</dimen>
+    <dimen name="layout_margin20">20dp</dimen>
+    <dimen name="marginTop20">20dp</dimen>
+    <dimen name="textSize34">34sp</dimen>
+    <dimen name="textSize20">20sp</dimen>
+    <dimen name="marginEnd2">2dp</dimen>
+    <dimen name="layout_margin10">10dp</dimen>
+    <dimen name="marginStart40">40dp</dimen>
+    <dimen name="marginEnd70">70dp</dimen>
+    <dimen name="marginLeft12">12dp</dimen>
+    <dimen name="padding8">8dp</dimen>
+    <dimen name="paddingLeft12">12dp</dimen>
+    <dimen name="marginTop10">10dp</dimen>
+    <dimen name="CornerRadius10">10dp</dimen>
+    <dimen name="cardElevation6">6dp</dimen>
+    <dimen name="marginStart22">22dp</dimen>
+    <dimen name="textSize18">18sp</dimen>
+</resources>

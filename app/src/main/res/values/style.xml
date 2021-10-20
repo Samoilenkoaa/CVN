@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="buttomShape">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+    <style name="cardWorld">
+        <item name="android:padding">@dimen/cardPadding16</item>
+        <item name="cardElevation">@dimen/cardElevation8</item>
+        <item name="cardCornerRadius">@dimen/CornerRadius12</item>
+        <item name="android:layout_marginTop">@dimen/marginTop16</item>
+    </style>
+
+
+    <style name="carGraph">
+        <item name="cardElevation">@dimen/cardElevation8</item>
+        <item name="cardCornerRadius">@dimen/CornerRadius12</item>
+        <item name="android:layout_marginTop">@dimen/marginTop16</item>
+    </style>
+
+    <style name="tvSymptomsLeft">
+        <item name="paddingStart">@dimen/paddingStart8</item>
+        <item name="paddingEnd">@dimen/paddingEnd8</item>
+        <item name="android:textSize">@dimen/textSize16</item>
+        <item name="android:textColor">@color/textColorBlack</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeft12</item>
+    </style>
+
+    <style name="tvSymptomsLeft2">
+        <item name="paddingStart">@dimen/paddingStart8</item>
+        <item name="paddingEnd">@dimen/paddingEnd8</item>
+        <item name="android:textSize">@dimen/textSize16</item>
+        <item name="android:layout_marginTop">@dimen/marginTop16</item>
+        <item name="android:textColor">@color/textColorBlack</item>
+    </style>
+
+    <style name="tvSymptomsRight">
+        <item name="android:textSize">@dimen/textSize16</item>
+        <item name="android:textColor">@color/textColorBlack</item>
+        <item name="background">@drawable/round</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="tvSymptomsRight2">
+        <item name="android:textSize">@dimen/textSize16</item>
+        <item name="android:textColor">@color/textColorBlack</item>
+        <item name="background">@drawable/round</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/marginTop16</item>
+    </style>
+
+    <style name="tvLine">
+        <item name="android:layout_marginTop">@dimen/marginTop8</item>
+        <item name="background">@color/backgroundView</item>
+    </style>
+
+    <style name="cardHelp">
+        <item name="cornerRadius">@dimen/cornerRadius8</item>
+        <item name="android:layout_margin">@dimen/layout_margin8</item>
+    </style>
+
+
+    <style name="detailsView1">
+        <item name="android:layout_marginTop">@dimen/marginTop10</item>
+        <item name="android:textSize">@dimen/textSize18</item>
+        <item name="android:layout_marginStart">@dimen/marginStart40</item>
+    </style>
+
+    <style name="detailsView2">
+        <item name="android:layout_marginEnd">@dimen/marginEnd70</item>
+        <item name="android:layout_marginTop">@dimen/marginTop10</item>
+        <item name="android:textSize">@dimen/textSize18</item>
+    </style>
+
+
+</resources>
