@@ -1,2 +1,2 @@
 # CVN
-*## covid news*
+## *covid news*
